@@ -15,14 +15,15 @@ public class uzduotis1 {
         listas.add(6);
         listas.add(1);
 
+        int x = 15;
+
         System.out.println("listas = " + listas);
-        System.out.println("rastiSkaicius(listas) = " + rastiSkaicius(listas));
+        System.out.println("rastiSkaicius(listas) = " + rastiSkaicius(x, listas));
     }
-    public static double rastiSkaicius(List<Integer> listas){
+    public static int rastiSkaicius(int x, List<Integer> listas){
         int kiekdaugiau = 0;
-        int flag = 10;
         for (int i = 0; i < listas.size(); i++) {
-            if(flag < listas.get(i)){
+            if(x < listas.get(i)){
                 kiekdaugiau++;
             }
         }
