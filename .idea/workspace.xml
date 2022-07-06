@@ -36,14 +36,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.uzduotis7">
-    <configuration name="uzduotis3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uzduotis3" />
-      <module name="listai-uzduotys" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.uzduotis8">
     <configuration name="uzduotis4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uzduotis4" />
       <module name="listai-uzduotys" />
@@ -72,13 +65,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="uzduotis8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uzduotis8" />
+      <module name="listai-uzduotys" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.uzduotis8" />
         <item itemvalue="Application.uzduotis7" />
         <item itemvalue="Application.uzduotis6" />
         <item itemvalue="Application.uzduotis5" />
         <item itemvalue="Application.uzduotis4" />
-        <item itemvalue="Application.uzduotis3" />
       </list>
     </recent_temporary>
   </component>
