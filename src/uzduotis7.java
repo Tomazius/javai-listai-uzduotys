@@ -6,7 +6,7 @@ import java.util.List;
 public class uzduotis7 {
     public static void main(String[] args) {
 
-        int x = 258;
+        int x = 2583;
 
 
         ArrayList<Integer> skaitmenai = skaitmenys(x);
@@ -14,17 +14,11 @@ public class uzduotis7 {
     }
     public static ArrayList<Integer> skaitmenys(int x){
         ArrayList<Integer> skaitmenai = new ArrayList<>();
-        while (x / 10 > 0){
+        while (x > 0){
             skaitmenai.add(x % 10);
+            x = x / 10;
             System.out.println(skaitmenai);
 
-            x = x / 10;
-            skaitmenai.add(x % 10);
-            System.out.println(skaitmenai);
-
-            x = x / 10;
-            skaitmenai.add(x % 10);
-            System.out.println(skaitmenai);
         }
         return skaitmenai;
     }
