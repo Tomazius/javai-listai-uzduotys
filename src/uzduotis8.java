@@ -27,10 +27,11 @@ public class uzduotis8{
     }
     public static int iIeskojimas(ArrayList<Integer> skaiciai){
         int max = maxIeskojimas(skaiciai);
-        int i = 0;
-        while(max > skaiciai.get(i)){
-            i++;
+        for (int i = 0; i < skaiciai.size(); i++) {
+            if (max == skaiciai.get(i)) {
+                return i;
+            }
         }
-        return i;
+        return -1;
     }
 }
